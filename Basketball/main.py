@@ -45,9 +45,9 @@ def add_nba():
 def index():
     try:
         add_nba()
-        return "gela gavida"
+        return "successfully added"
     except:
-        return "gela shemovida"
+        return "not added"
 
 
 @app.route('/<team>')
